@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  background: wheat;
+  padding: 10px 0;
+}
+
+.navbar-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: maroon;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.nav-btn {
+  display: grid;
+  place-items: center;
+  padding: 10px 15px;
+  background: maroon;
+  color: white;
+  border-radius: 5px;
+}
+.nav-btn:hover {
+  background: darkred;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: beige;
+  color: #a21802;
+}
+
+header {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover,
+header nav a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.intro-text {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.intro-text h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.blockquote {
+  font-family: "Pacifico", cursive;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.blockquote span {
+  font-family: "Poppins", sans-serif;
+  font-size: 1 rem;
+  font-style: normal;
+  display: block;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.intro-photo img {
+  width: 230px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
