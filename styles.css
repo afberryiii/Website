@@ -118,33 +118,60 @@ header nav a:active {
   border-radius: 12px;
 }
 
-@media (width >= 600px) {
+@media (max-width: 768px) {
   .half,
   .full {
     min-height: initial;
   }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
   .hero {
     flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
 
   .intro-text {
-    padding: 0;
+    padding-right: 0;
     margin-bottom: 20px;
   }
   .image {
-    width: 100%;
-    max-width: 300px;
+    width: 220px;
   }
 
   .intro-photo img {
-    width: 100%;
-    max-width: 300px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .half,
+  .full {
+    min-height: initial;
   }
 
-  body {
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
+  .navbar-title {
+    padding-left: 10px;
+    font-size: 1.2rem;
+  }
+    .nav-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+    .intro-text h2 {
+        font-size: 1.4rem;
+    }
+    .intro-text p {
+        font-size: 1rem;
+        }
+  }
+
+  .intro-text {
+    padding-right: 0;
+    margin-bottom: 20px;
   }
 }
